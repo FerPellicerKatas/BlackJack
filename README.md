@@ -8,6 +8,6 @@ Este objetivo se ha llevado a cabo a partir de TDD o Test-Driven Development (de
 
 ## Ejemplo de funcionamiento del programa:
 
-A continuación mostramos un ejemplo de ejecución, donde todos los jugadores ganan el juego.
+A continuación se muestra un ejemplo de ejecución.
 
 ![Ejemplo BlackJack](https://github.com/FerPellicerKatas/BlackJack/blob/master/imagenEjemplo/Resultado%20BlackJack.png)
