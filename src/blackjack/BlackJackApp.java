@@ -33,7 +33,7 @@ public class BlackJackApp {
         return winners;
     }
 
-     private static int getHandPoints(ArrayList<Card> playerCards) {
+     public static int getHandPoints(ArrayList<Card> playerCards) {
         int points = 0;
         int aceCount = 0;
 

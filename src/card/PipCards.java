@@ -18,7 +18,7 @@ public class PipCards implements Card {
         return "Pip card with value " + this.getValue();
     }
 
-    private static class IncorrectValueException extends Exception {
+    public static class IncorrectValueException extends Exception {
 
         private IncorrectValueException() {
             super("Wrong value assigned for pip card. The value must be between 2 and 9.");
