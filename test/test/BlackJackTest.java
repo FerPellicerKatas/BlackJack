@@ -9,6 +9,16 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class BlackJackTest {
+    
+    @Test
+    public void test_hand_value_with_one_card() throws PipCards.IncorrectValueException {
+        assertEquals(3, new PipCards(3).getValue());
+        assertEquals(10, new PipCards(10).getValue());
+        assertEquals(10, new FigureCards("J").getValue());
+        assertEquals(10, new FigureCards("Q").getValue());
+        assertEquals(10, new FigureCards("K").getValue());
+        assertEquals(11, new Ace().getValue());
+    }
 
     @Test
     public void case1() {
